@@ -192,15 +192,3 @@ For reference, approximate parameter counts for common configurations with `n_fe
 The dominant cost is the Transformer layers (each scales as `O(d²)`). The FeatureTokenizer cost is small and scales as `O(N × d)`.
 
 ---
-
-## Citation
-
-```bibtex
-@inproceedings{gorishniy2021revisiting,
-  title     = {Revisiting Deep Learning Models for Tabular Data},
-  author    = {Gorishniy, Yury and Rubachev, Ivan and Khrulkov, Valentin and Babenko, Artem},
-  booktitle = {Advances in Neural Information Processing Systems},
-  year      = {2021},
-  url       = {https://arxiv.org/abs/2106.11959}
-}
-```
